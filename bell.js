@@ -1,0 +1,3 @@
+
+let parentBlock=document.querySelector(`.order-call__text`);let bellHeight=parseInt(getComputedStyle(document.querySelector(`.order-call__text`),':before').getPropertyValue(`height`).slice(0,-2));let windowHeight=document.documentElement.clientHeight;let bellY=parentBlock.getBoundingClientRect().top+window.pageYOffset;let scrollHandler=()=>{if(((window.pageYOffset+windowHeight)>bellY)&&(bellY>window.pageYOffset)){parentBlock.classList.add(`ring-bell`);}else{parentBlock.classList.remove(`ring-bell`);}}
+window.addEventListener("scroll",scrollHandler);parentBlock.addEventListener("load",scrollHandler);

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="97" viewBox="0 0 93 97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c23428;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="61" y1="49" x2="93" y2="49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ca463e"/>
+      <stop offset="1" stop-color="#dd807d"/>
+    </linearGradient>
+  </defs>
+  <path id="Фигура_1" data-name="Фигура 1" class="cls-1" d="M0,51L93,96,61,0Z"/>
+  <path id="Фигура_1_копия" data-name="Фигура 1 копия" class="cls-2" d="M61,1L93,97,85,6Z"/>
+</svg>
